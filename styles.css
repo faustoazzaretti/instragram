@@ -1,0 +1,49 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    height: 800px;
+    width: 100%;
+}
+
+#left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    background: #FAFAFA;
+    
+}
+#phone{
+    width: 37%;
+    height: 600px;
+    background: blue;
+    margin-right: 30px;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    background: #ccc;
+}
+
+#divform{
+    width: 37%;
+    height: 600px;
+    background: blue;
+    margin-left: 20px;
+}
+
+#footer{
+    width: 100%;
+    height: 150px;
+    background: black;
+    color: white;
+}
