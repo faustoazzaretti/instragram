@@ -7,7 +7,7 @@
 
 #main{
     display: flex;
-    height: 800px;
+    height: 850px;
     width: 100%;
 }
 
@@ -22,8 +22,8 @@
 #phone{
     width: 37%;
     height: 600px;
-    background: blue;
-    margin-right: 30px;
+   
+    margin-right: 10%;
 }
 
 #form{
@@ -146,7 +146,7 @@
     align-items: center;
     width: 100%;
     height: 105px;
-    background:#FFFFFF;
+    background:#FAFAFA;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -177,3 +177,51 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:lightslategray;
 }
+/*Responsive*/
+@media (max-width:1300px){
+    #container{
+        
+    }
+    #left{
+        display: none;
+    }
+    #form{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: lightsteelblue;
+        border: none;
+    }
+    #divform{
+        border: none;
+    }
+    
+    #uno{
+        border: none;
+    }
+    #dos{
+        border: 0.5px dashed lightsteelblue;
+        border-radius: 5px;
+    }
+    #tres{
+        border: 0.5px dashed lightsteelblue;
+        border-radius: 10px;
+    }
+    #footer{
+        flex-direction: column;
+        height: 75px;
+    }
+    #links{
+        width: 100%;
+        justify-content: center;
+    }
+    #copyright{
+        width: 100%;
+        justify-content: center;
+    }
+    #up{
+        display: block;
+        border: none;
+    }
+}
+
