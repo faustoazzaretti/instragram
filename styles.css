@@ -39,8 +39,13 @@
     height: 600px;
     background: white;
     margin-left: 20px;
-    border: 1px solid #ccc;
     
+}
+#up{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
 }
 
 #uno{
@@ -111,16 +116,38 @@
 #dos .facebook:hover, #dos .forgot:hover{
     cursor: pointer;
 }
-
+#down{
+    display: flex;
+    flex-direction: column;
+    
+    height: 35%;
+}
 #tres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 15%;
+    height: 105px;
     background: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #FFFFFF;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+.signup{
+    display: inline;
+    color: blue;
 }
 #cuatro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 20%;
-    background: lightblue;
+    height: 105px;
+    background:#FFFFFF;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #footer{
