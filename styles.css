@@ -40,38 +40,44 @@
     background: white;
     margin-left: 20px;
     border: 1px solid #ccc;
-    font-family: 'Kavoon', cursive;
+    
 }
 
 #uno{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-self: center;
     width: 100%;
-    height: 40%;
-    background: #FAFAFA;
-    font-size: 45px;
+    height: 50%;
+    background: #FFFFFF;
     
 }
-#uno h5{
-    color: red;
-    border: 1px solid red;
+#uno img{
+    margin-top: 40px;
+}
+#uno hr {
+    width: 220px;
+    height: 1px;
+    border: 0;
+    background-color: #CCC;
+    margin-top: 20px;
 }
 .redondeado{
     border-radius: 2px;
     height: 30px;
-    width: 200px;
+    width: 250px;
     background: #E8F0FE;
     margin-top: 5px;
     border: 2px solid #ccc;
 }
 .login{
     background: #0095F6;
-    width: 205px;
-    margin-top: 7px;
+    width: 255px;
+    height: 30px;
+    margin-top: 10px;
     color: white;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 ::placeholder { 
@@ -80,10 +86,32 @@
     
  }
 #dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 15%;
-    background: red;
+    background: #FFFFFF;
 }
+.facebook{
+    color: #4267B2;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.forgot{
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+    color: #00376b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#dos .facebook:hover, #dos .forgot:hover{
+    cursor: pointer;
+}
+
 #tres{
     width: 100%;
     height: 15%;
@@ -91,7 +119,7 @@
 }
 #cuatro{
     width: 100%;
-    height: 30%;
+    height: 20%;
     background: lightblue;
 }
 
