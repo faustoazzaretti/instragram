@@ -11,10 +11,33 @@
 }
 #left{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     width: 50%;
     background: #FAFAFA;
+}
+#fausto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+    height: 250px;
+    background: #ccc;
+    border: 1px solid white;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+#fausto img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+#fausto img:hover{
+    height: 64px;
+    width: 64px;
+    margin-top: 10px;
 }
 #phone{
     width:25%;
@@ -29,7 +52,7 @@
     background: #FAFAFA;
 }
 #divform{
-    width: 37%;
+    width: 45%;
     height: 600px;
     background: white;
     margin-left: 20px;
@@ -80,7 +103,6 @@
 ::placeholder { 
     color: grey;
     font-size: 10px;
-    
 }
 #dos{
     display: flex;
