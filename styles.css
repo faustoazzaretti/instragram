@@ -11,17 +11,15 @@
 }
 #left{
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    align-items: center;
     width: 50%;
     background: #FAFAFA;
-    
 }
 #phone{
-    width: 37%;
+    width:25%;
     height: 600px;
-   
-    margin-right: 10%;
+    margin-right: 35%;
 }
 #form{
     display: flex;
@@ -65,14 +63,14 @@
 .redondeado{
     border-radius: 2px;
     height: 30px;
-    width: 250px;
+    width: 70%;
     background: #E8F0FE;
     margin-top: 5px;
     border: 2px solid #ccc;
 }
 .login{
     background: #0095F6;
-    width: 255px;
+    width: 70%;
     height: 30px;
     margin-top: 10px;
     color: white;
@@ -83,7 +81,7 @@
     color: grey;
     font-size: 10px;
     
- }
+}
 #dos{
     display: flex;
     flex-direction: column;
@@ -113,7 +111,6 @@
 #down{
     display: flex;
     flex-direction: column;
-    
     height: 35%;
 }
 #tres{
@@ -143,6 +140,9 @@
     background:#FAFAFA;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#cuatro img{
+    width: 100%;
+}
 #footer{
     display: flex;
     flex-direction: row;
@@ -170,7 +170,7 @@
     color:lightslategray;
 }
 /*Responsive*/
-@media (max-width:1300px){
+@media (max-width:1250px){
     #left{
         display: none;
     }
@@ -194,7 +194,7 @@
     }
     #footer{
         flex-direction: column;
-        height: 75px;
+        height: 20%;
     }
     #links,#copyright{
         width: 100%;
@@ -205,4 +205,3 @@
         border: none;
     }
 }
-
