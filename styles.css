@@ -91,6 +91,9 @@
     height: 15%;
     background: #FFFFFF;
 }
+#dos a{
+    text-decoration: none;
+}
 .facebook{
     color: #4267B2;
     font-family: 'Libre Franklin', sans-serif;
