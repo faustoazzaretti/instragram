@@ -23,7 +23,7 @@
     align-items: center;
     text-align: center;
     width: 10%;
-    height: 250px;
+    height: 30%;
     background: #ccc;
     border: 1px solid white;
     font-family: 'Comic Neue', cursive;
@@ -151,6 +151,15 @@
     font-size: 15px;
     border: 1px solid #ccc;
 }
+#tres h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    color: red;
+    width: 80%;
+    font-size: 14px;
+    font-weight: normal;
+}
 .signup{
     display: inline;
     color: blue;
@@ -194,6 +203,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:lightslategray;
 }
+#links:hover,#copyright:hover{
+    cursor: pointer;
+    color: black;
+    
+}
+
 /*Responsive*/
 @media (max-width:1250px){
     #left{

@@ -1,7 +1,7 @@
-function mostrar(){
-    document.getElementById('error').style.display="block";
+function cambiar(){
+    var error="The username you entered doesn't belong to an account. Please check your username and try again.";
+    document.getElementById("error").innerHTML=error;
 }
-
-function ocultar(){
-    document.getElementById('error').style.display="none";
+document.getElementById("cambiar").onclick = function (){
+    cambiar();
 }
